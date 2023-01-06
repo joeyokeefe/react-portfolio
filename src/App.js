@@ -9,7 +9,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <main>
+    <main className="vh-100">
       <Router>
         <Nav />
         <Routes>

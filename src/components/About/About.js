@@ -1,10 +1,10 @@
 function About() {
   return (
     <div>
-      <h1>
-        Hi! I'm <span>Joe O'Keefe</span>
+      <h1 className="fs-3 ms-5 mb-4">
+        Hi! I'm <span className="text-primary fs-1">Joe O'Keefe</span>
       </h1>
-      <p>
+      <p className="w-50 mx-auto fs-4">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
         placerat odio sit amet dui malesuada, et interdum mi laoreet.
         Suspendisse sollicitudin tincidunt velit. Nunc ultricies, orci eu
