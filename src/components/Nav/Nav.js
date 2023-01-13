@@ -1,21 +1,22 @@
 import { NavLink } from "react-router-dom";
+import "./Nav.css";
 
 function Nav() {
   return (
-    <nav className="nav justify-content-end gap-3 me-5 pt-3 text-nowrap">
-      <NavLink to="/" className="text-decoration-none nav-link active">
+    <nav>
+      <NavLink to="/" className="navLink">
         About
       </NavLink>
-      <NavLink to="projects" className="text-decoration-none nav-link">
+      <NavLink to="projects" className="navLink">
         Projects
       </NavLink>
-      <NavLink to="work" className="text-decoration-none nav-link">
+      <NavLink to="work" className="navLink">
         Work
       </NavLink>
-      <NavLink to="contact" className="text-decoration-none nav-link">
+      <NavLink to="contact" className="navLink">
         Contact
       </NavLink>
-      <a href="#" className="text-decoration-none nav-link">
+      <a href="#" id="resumeLink">
         Resume
       </a>
     </nav>

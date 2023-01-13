@@ -1,0 +1,17 @@
+* {
+  background-color: #404258;
+}
+
+main {
+  height: 100vh;
+}
+
+.mainTitle {
+  color: white;
+}
+
+.mainContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

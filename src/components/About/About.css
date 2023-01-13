@@ -1,0 +1,13 @@
+.aboutSection {
+  width: 100rem;
+}
+
+.mainTitle {
+  font-size: 4rem;
+}
+
+.aboutBio {
+  font-size: 1.5rem;
+  width: 75rem;
+  color: white;
+}
