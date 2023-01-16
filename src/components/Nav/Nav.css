@@ -8,14 +8,11 @@ nav {
   font-weight: bold;
 }
 
-span {
-  color: #ffc755;
-}
-
 .navLink {
   text-decoration: none;
   color: white;
   margin-top: 12px;
+  text-shadow: 2px 2px black;
 }
 
 .navLink:hover {
@@ -29,9 +26,13 @@ span {
   border: 2px #ffc755 solid;
   padding: 10px;
   border-radius: 25px;
+  text-shadow: 2px 2px black;
 }
 
 #resumeLink:hover {
   background-color: #ffc755;
   transition: ease 500ms;
+  color: #404258;
+  text-shadow: none;
+  cursor: pointer;
 }

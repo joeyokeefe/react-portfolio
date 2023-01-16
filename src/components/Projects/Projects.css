@@ -3,11 +3,62 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100rem;
 }
 
 #projectsHeader {
   font-size: 3.5rem;
   color: #ffc755;
+  text-shadow: 0.25rem 0.25rem black;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: red 1px solid;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.projectTitle {
+  font-size: 1.8rem;
+  color: white;
+}
+
+.projectDescription {
+  font-size: 1rem;
+  color: white;
+  line-height: 3rem;
+}
+
+.projectLink {
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: white;
+  border: 0.125rem #ffc755 solid;
+  padding: 0.625rem;
+  border-radius: 1.5625rem;
+  text-shadow: 0.125rem 0.125rem black;
+  width: 6.25rem;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.125rem;
+}
+
+.projectLink:hover {
+  background-color: #ffc755;
+  transition: ease 500ms;
+  color: #404258;
+  text-shadow: none;
+  cursor: pointer;
+}
+
+#toolsHeader {
+  font-size: 2rem;
+  color: #ffc755;
+  text-shadow: 0.1875rem 0.1875rem black;
 }
 
 #iconsContainer {
