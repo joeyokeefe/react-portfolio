@@ -1,0 +1,34 @@
+#workSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+#workHeader {
+  font-size: 3.5rem;
+  color: #ffc755;
+}
+
+.jobHeader {
+  font-size: 2rem;
+  color: #ffc755;
+}
+
+.employer {
+  font-size: 1.5rem;
+  margin-top: -1.5rem;
+}
+
+.jobDetails {
+  font-size: 1.2rem;
+  margin-top: -1.3rem;
+}
+
+.dutiesSection {
+  margin-top: -1rem;
+  font-size: 1.2rem;
+  line-height: 2.5rem;
+  width: 55rem;
+}
