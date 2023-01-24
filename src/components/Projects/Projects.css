@@ -62,7 +62,12 @@
 
 #iconsContainer {
   display: grid;
-  grid-template-columns: minmax(20px, auto) 1fr;
-  grid-template-rows: 1fr;
-  align-items: center;
+  grid-template: repeat(1, 1fr) / repeat(1, 1fr);
+  grid-auto-flow: column;
+  gap: 20px;
+}
+
+.softwareIcon {
+  height: 48px;
+  width: 48px;
 }

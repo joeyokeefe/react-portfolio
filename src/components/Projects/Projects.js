@@ -37,16 +37,15 @@ function Projects() {
       </div>
       <h3 id="toolsHeader">My Dev Tools</h3>
       <div id="iconsContainer">
-        <img src={htmlIcon} alt="html" class="softwareIcon" />
-        <img src={cssIcon} alt="css" class="softwareIcon" />
-        <img src={javaScriptIcon} alt="javaScript" class="softwareIcon" />
-        <img src={reactIcon} alt="reactJS" class="softwareIcon" />
-        <img src={nodeIcon} alt="nodeJS" class="softwareIcon" />
-        <img src="..." alt="SQL" class="softwareIcon" />
-        <img src={bootstrapLogo} alt="bootstrap" class="softwareIcon" />
-        <img src={tailwindIcon} alt="tailwind" class="softwareIcon" />
-        <img src={githubLogo} alt="github" class="softwareIcon" />
-        <img src={vsCodeIcon} alt="vscode" class="softwareIcon" />
+        <img src={htmlIcon} alt="html" className="softwareIcon" />
+        <img src={cssIcon} alt="css" className="softwareIcon" />
+        <img src={javaScriptIcon} alt="javaScript" className="softwareIcon" />
+        <img src={reactIcon} alt="reactJS" className="softwareIcon" />
+        <img src={nodeIcon} alt="nodeJS" className="softwareIcon" />
+        <img src={bootstrapLogo} alt="bootstrap" className="softwareIcon" />
+        <img src={tailwindIcon} alt="tailwind" className="softwareIcon" />
+        <img src={githubLogo} alt="github" className="softwareIcon" />
+        <img src={vsCodeIcon} alt="vscode" className="softwareIcon" />
       </div>
     </div>
   );
