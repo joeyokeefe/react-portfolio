@@ -1,35 +1,35 @@
 import "./About.css";
 
+import profilePicture from "./profilePicture.png";
+
 function About() {
   return (
     <section className="aboutSection">
       <h1 className="mainTitle">
         Hi! I'm <span>Joe O'Keefe</span>
       </h1>
-      <p className="aboutBio">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-        placerat odio sit amet dui malesuada, et interdum mi laoreet.
-        Suspendisse sollicitudin tincidunt velit. Nunc ultricies, orci eu
-        tincidunt semper, elit erat viverra purus, id placerat mauris ligula
-        vitae nisi. Mauris congue urna id tristique consectetur. Donec maximus
-        consectetur augue, vel egestas erat suscipit nec. Phasellus faucibus et
-        libero non accumsan. Phasellus id cursus quam. Maecenas nibh lorem,
-        ultrices non dignissim in, tempor ut erat. Mauris bibendum, lectus sed
-        efficitur condimentum, nisl massa commodo velit, nec ultrices nibh purus
-        ac neque. Ut at hendrerit arcu. Pellentesque sollicitudin nibh sed augue
-        iaculis, et placerat justo dapibus. Nam tristique, enim et aliquet
-        eleifend, justo purus aliquam lectus, ac faucibus justo sapien nec leo.
-        Mauris fermentum a tortor at fringilla. Nulla aliquam sagittis mauris
-        pulvinar vehicula. Pellentesque tristique pharetra euismod. Nam
-        tincidunt id lorem sed mollis. Vivamus orci nibh, ultricies et aliquam
-        at, consequat eu enim. Praesent ac orci elit. Nulla nulla leo, faucibus
-        condimentum elit eget, faucibus tincidunt nibh. Donec rhoncus egestas
-        nisl ac aliquam. Aenean pretium lacus eu diam elementum, vitae dictum
-        nunc convallis. Aenean semper pretium magna, elementum placerat ipsum
-        posuere in. Nullam placerat laoreet convallis. Sed dictum, neque id
-        feugiat varius, ipsum justo elementum lorem, ut lobortis metus ex ut
-        dui.
-      </p>
+      <div className="aboutDetails">
+        <section className="aboutBio">
+          <p>
+            I have been passionate about technology for as long as I can
+            remember. My journey in technology began when I was a child, and I
+            started learning how to manipulate the files on my computer to
+            install the newest Minecraft mods. Since then my love for technology
+            has grown and expanded far beyond the confines of video games.
+          </p>
+          <p>
+            In my professional career, I have taken on additional
+            responsibilities in IT, and I have become the IT Administrator in my
+            current workplace. Additionally, I have spent considerable time
+            working towards becoming a web developer, and I have developed an
+            interest in using my proficiency with technology to create new
+            things. I have always been a creative person, and it is clear to me
+            that software development is the perfect medium for me to combine my
+            love of art and technology.
+          </p>
+        </section>
+        <img src={profilePicture} height="300px" className="profilePicture" />
+      </div>
     </section>
   );
 }

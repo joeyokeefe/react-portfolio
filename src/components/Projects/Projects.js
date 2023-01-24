@@ -7,6 +7,7 @@ import bootstrapLogo from "./icons/bootstrapIcon.png";
 import tailwindIcon from "./icons/tailwindIcon.png";
 import githubLogo from "./icons/githubLogo.png";
 import vsCodeIcon from "./icons/vsCodeIcon.png";
+import endangermentScreenshot from "./endangermentScreenshot.png";
 import "./Projects.css";
 
 function Projects() {
@@ -14,10 +15,14 @@ function Projects() {
     <div id="projectsSection">
       <h2 id="projectsHeader">Projects</h2>
       <div id="projectsContainer">
-        <div class="project">
-          <img class="projectThumbnail" src="" />
-          <h4 class="projectTitle">Endangerment!</h4>
-          <p class="projectDescription">
+        <div className="project">
+          <h4 className="projectTitle">Endangerment!</h4>
+          <img
+            className="projectThumbnail"
+            src={endangermentScreenshot}
+            width="500px"
+          />
+          <p className="projectDescription">
             A trivia game made with jService API. Generates a random board of
             Jeopardy questions to play with your friends.
           </p>

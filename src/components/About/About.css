@@ -14,6 +14,22 @@
   line-height: 3rem;
 }
 
+.aboutDetails {
+  display: flex;
+}
+
+.profilePicture {
+  float: right;
+  border: #ffc755 4px solid;
+  border-radius: 400px;
+  background-color: whitesmoke;
+  margin-left: 70px;
+}
+
+br {
+  line-height: 150%;
+}
+
 span {
   color: #ffc755;
 }
