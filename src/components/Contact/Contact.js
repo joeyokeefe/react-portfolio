@@ -2,6 +2,7 @@ import linkedinLogo from "./icons/linkedinLogo.png";
 import githubLogo from "./icons/githubLogo.png";
 import gmailLogo from "./icons/gmailLogo.png";
 import "./Contact.css";
+import ContactForm from "../ContactForm/ContactForm";
 
 function Contact() {
   return (
@@ -21,6 +22,7 @@ function Contact() {
           <img src={gmailLogo} alt="Gmail Logo" />
         </a>
       </div>
+      <ContactForm />
     </section>
   );
 }

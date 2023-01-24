@@ -1,0 +1,50 @@
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+form label {
+  color: white;
+  font-size: 1.5rem;
+}
+
+form input {
+  background-color: white;
+  font-size: 1rem;
+}
+
+form textarea {
+  background-color: white;
+}
+
+.nameBox,
+.emailBox,
+.subjectBox {
+  width: 250px;
+}
+
+.messageBox {
+  width: 250px;
+  height: 100px;
+}
+
+.sendButton {
+  color: white;
+  border: 2px #ffc755 solid;
+  padding: 10px;
+  border-radius: 25px;
+  text-shadow: 2px 2px black;
+  background-color: #404258;
+  height: 50px;
+  width: 200px;
+  align-self: center;
+}
+
+.sendButton:hover {
+  background-color: #ffc755;
+  transition: ease 500ms;
+  color: #404258;
+  text-shadow: none;
+  cursor: pointer;
+}
