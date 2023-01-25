@@ -37,7 +37,7 @@ function Work() {
             materials.
           </li>
           <li>
-            Oversees the scheduling and coordination of all inschool disability
+            Oversees the scheduling and coordination of all in-school disability
             service providers.
           </li>
         </ul>

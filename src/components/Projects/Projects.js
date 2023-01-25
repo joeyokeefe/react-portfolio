@@ -20,8 +20,8 @@ function Projects() {
           <h4 className="projectTitle">Endangerment!</h4>
           <img className="projectThumbnail" src={endangermentScreenshot} />
           <p className="projectDescription">
-            A trivia game made with jService API. Generates a random board of Jm
-            eopardy questions to play with your friends.
+            A trivia game made with jService API. Generates a random board of
+            Jeopardy questions to play with your friends.
           </p>
           <a
             class="projectLink"
