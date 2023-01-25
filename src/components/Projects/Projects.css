@@ -78,6 +78,7 @@
   grid-template: repeat(1, 1fr) / repeat(1, 1fr);
   grid-auto-flow: column;
   gap: 20px;
+  margin-bottom: 4rem;
 }
 
 .softwareIcon {
@@ -92,6 +93,45 @@
 }
 
 @media all and (min-width: 480px) and (max-width: 768px) {
+  #projectsSection {
+    width: 100%;
+  }
+  #projectsHeader {
+    font-size: 3rem;
+  }
+  .project {
+    width: 50vh;
+  }
+  .projectTitle {
+    text-align: center;
+    margin-bottom: -3rem;
+    font-size: 2rem;
+    padding-bottom: -6rem;
+  }
+  #projectsContainer {
+    flex-direction: column;
+    padding: 0 0;
+    margin-top: -2rem;
+  }
+
+  .projectThumbnail {
+    transform: scale(0.5);
+    margin-bottom: -4rem;
+  }
+  .projectDescription {
+    font-size: 1rem;
+    color: white;
+    line-height: 2rem;
+    width: 16rem;
+    text-align: center;
+  }
+  #iconsContainer {
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(1, 1fr);
+    grid-auto-flow: column;
+    gap: 20px;
+    margin-bottom: 4rem;
+  }
 }
 
 @media all and (max-width: 480px) {
@@ -126,6 +166,42 @@
     line-height: 2rem;
     width: 16rem;
     text-align: center;
+  }
+  #iconsContainer {
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(1, 1fr);
+    grid-auto-flow: column;
+    gap: 20px;
+    margin-bottom: 4rem;
+  }
+}
+
+/* iPhone Portrait */
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+}
+
+/* iPhone Landscape */
+@media screen and (max-device-width: 480px) and (orientation: landscape) {
+}
+
+/* iPad Portrait */
+@media screen and (min-device-width: 481px) and (orientation: portrait) {
+  #projectsContainer {
+    flex-direction: column;
+  }
+  #iconsContainer {
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(1, 1fr);
+    grid-auto-flow: column;
+    gap: 20px;
+    margin-bottom: 4rem;
+  }
+}
+
+/* iPad Landscape */
+@media screen and (min-device-width: 481px) and (max-device-width: 1024) and (orientation: landscape) {
+  #projectsContainer {
+    flex-direction: column;
   }
   #iconsContainer {
     display: grid;

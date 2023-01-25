@@ -43,6 +43,26 @@
 }
 
 @media all and (min-width: 480px) and (max-width: 768px) {
+  #workSection {
+    padding-bottom: 2rem;
+  }
+  #workHeader {
+    font-size: 3rem;
+  }
+  .dutiesSection {
+    margin-top: -1rem;
+    font-size: 1rem;
+    line-height: 2.2rem;
+    width: 30rem;
+  }
+  .employer {
+    text-align: center;
+    font-size: 1.3rem;
+  }
+  .jobDetails {
+    text-align: center;
+    font-size: 1.1rem;
+  }
 }
 
 @media all and (max-width: 480px) {
@@ -57,6 +77,34 @@
     font-size: 1rem;
     line-height: 2.2rem;
     width: 20rem;
+  }
+  .employer {
+    text-align: center;
+    font-size: 1.3rem;
+  }
+  .jobDetails {
+    text-align: center;
+    font-size: 1.1rem;
+  }
+}
+
+/* iPhone Portrait */
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+}
+
+/* iPad Portrait */
+@media screen and (min-device-width: 481px) and (orientation: portrait) {
+  #workSection {
+    padding-bottom: 2rem;
+  }
+  #workHeader {
+    font-size: 3rem;
+  }
+  .dutiesSection {
+    margin-top: -1rem;
+    font-size: 1rem;
+    line-height: 2.2rem;
+    width: 40rem;
   }
   .employer {
     text-align: center;

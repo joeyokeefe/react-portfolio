@@ -38,12 +38,65 @@ nav {
 }
 
 @media all and (min-width: 1024px) and (max-width: 1280px) {
+  nav {
+    display: flex;
+    justify-content: end;
+    gap: 1rem;
+    margin-right: 2rem;
+    padding-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  .navLink {
+    text-decoration: none;
+    color: white;
+    margin-top: 12px;
+    text-shadow: 1px 1px black;
+  }
+
+  .navLink:hover {
+    color: #ffc755;
+    transition: ease 500ms;
+  }
+
+  #resumeLink {
+    text-decoration: none;
+    color: white;
+    border: 2px #ffc755 solid;
+    padding: 10px;
+    border-radius: 25px;
+    text-shadow: 1px 1px black;
+  }
+
+  #resumeLink:hover {
+    background-color: #ffc755;
+    transition: ease 500ms;
+    color: #404258;
+    text-shadow: none;
+    cursor: pointer;
+  }
 }
 
 @media all and (min-width: 768px) and (max-width: 1024px) {
 }
 
 @media all and (min-width: 480px) and (max-width: 768px) {
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-bottom: 1px #ffc755 solid;
+  }
+
+  #resumeLink {
+    display: none;
+  }
 }
 
 @media all and (max-width: 480px) {
@@ -51,6 +104,44 @@ nav {
     display: flex;
     justify-content: center;
     gap: 2rem;
+    margin: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-bottom: 1px #ffc755 solid;
+  }
+
+  #resumeLink {
+    display: none;
+  }
+}
+
+/* iPad Portrait */
+@media screen and (min-device-width: 481px) and (orientation: portrait) {
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-bottom: 1px #ffc755 solid;
+  }
+
+  #resumeLink {
+    display: none;
+  }
+}
+
+/* iPad Landscape */
+@media screen and (min-device-width: 481px) and (max-device-width: 1024) and (orientation: landscape) {
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
     margin: 0;
     padding-top: 1rem;
     padding-bottom: 1rem;
