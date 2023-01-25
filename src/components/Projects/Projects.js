@@ -8,6 +8,7 @@ import tailwindIcon from "./icons/tailwindIcon.png";
 import githubLogo from "./icons/githubLogo.png";
 import vsCodeIcon from "./icons/vsCodeIcon.png";
 import endangermentScreenshot from "./endangermentScreenshot.png";
+import memoryGameScreenshot from "./memoryGameScreenshot.png";
 import "./Projects.css";
 
 function Projects() {
@@ -17,18 +18,28 @@ function Projects() {
       <div id="projectsContainer">
         <div className="project">
           <h4 className="projectTitle">Endangerment!</h4>
-          <img
-            className="projectThumbnail"
-            src={endangermentScreenshot}
-            width="500px"
-          />
+          <img className="projectThumbnail" src={endangermentScreenshot} />
           <p className="projectDescription">
-            A trivia game made with jService API. Generates a random board of
-            Jeopardy questions to play with your friends.
+            A trivia game made with jService API. Generates a random board of Jm
+            eopardy questions to play with your friends.
           </p>
           <a
             class="projectLink"
             href="https://endangerment.netlify.app"
+            target="_blank"
+          >
+            Link
+          </a>
+        </div>
+        <div className="project">
+          <h4 className="projectTitle">Memory Game</h4>
+          <img className="projectThumbnail" src={memoryGameScreenshot} />
+          <p className="projectDescription">
+            A memory game built in vanilla JavaScript.
+          </p>
+          <a
+            class="projectLink"
+            href="https://portfoliomemorygame.netlify.app/"
             target="_blank"
           >
             Link

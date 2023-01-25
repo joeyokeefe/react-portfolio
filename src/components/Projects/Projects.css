@@ -12,6 +12,10 @@
   text-shadow: 1px 1px black;
 }
 
+#projectsContainer {
+  display: flex;
+}
+
 .project {
   display: flex;
   flex-direction: column;
@@ -26,10 +30,17 @@
   color: white;
 }
 
+.projectThumbnail {
+  width: 31.25rem;
+  height: 15.625rem;
+}
+
 .projectDescription {
   font-size: 1rem;
   color: white;
   line-height: 3rem;
+  width: 31.25rem;
+  text-align: center;
 }
 
 .projectLink {

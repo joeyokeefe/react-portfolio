@@ -39,6 +39,7 @@ form textarea {
   height: 50px;
   width: 200px;
   align-self: center;
+  font-size: 1.3rem;
 }
 
 .sendButton:hover {
