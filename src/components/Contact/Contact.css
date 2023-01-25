@@ -9,6 +9,7 @@
   font-size: 3.5rem;
   color: #ffc755;
   text-shadow: 1px 1px black;
+  font-family: "Bebas Neue", sans-serif;
 }
 
 .contactBlurb {
@@ -20,4 +21,20 @@
 .contactLinks {
   display: flex;
   gap: 4rem;
+}
+
+@media all and (max-width: 480px) {
+  .contactHeader {
+    font-size: 3rem;
+  }
+
+  .contactBlurb {
+    width: 50vh;
+    text-align: center;
+  }
+
+  .contactLinks {
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
 }

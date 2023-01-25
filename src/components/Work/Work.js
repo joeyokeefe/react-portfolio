@@ -5,10 +5,10 @@ function Work() {
     <div id="workSection">
       <h2 id="workHeader">Work Experience</h2>
       {/*Job 1*/}
-      <h3 class="jobHeader">IT Administrator</h3>
-      <h4 class="employer">St. Joseph Hill Academy</h4>
-      <h4 class="jobDetails">09/2019 - Present | Staten Island, NY</h4>
-      <div class="dutiesSection">
+      <h3 className="jobHeader">IT Administrator</h3>
+      <h4 className="employer">St. Joseph Hill Academy</h4>
+      <h4 className="jobDetails">09/2019 - Present | Staten Island, NY</h4>
+      <div className="dutiesSection">
         <ul>
           <li>
             Oversees the setup and configuration of new software and hardware.
@@ -43,10 +43,13 @@ function Work() {
         </ul>
       </div>
       {/*Job 2*/}
-      <h3 class="jobHeader">Marketing Research Assistant</h3>
-      <h4 class="employer">Love Law Firm, PLLC</h4>
-      <h4 class="jobDetails">11/2018 - 03/2019 | Uniondale, NY (Remote)</h4>
-      <div class="dutiesSection">
+      <h3 className="jobHeader">Marketing Research Assistant</h3>
+      <h4 className="employer">Love Law Firm, PLLC</h4>
+      <h4 className="jobDetails">
+        11/2018 - 03/2019 | Uniondale, NY <br />
+        (Remote)
+      </h4>
+      <div className="dutiesSection">
         <ul>
           <li>
             Temporary contract position performing a variety of administrative,
@@ -70,10 +73,10 @@ function Work() {
       </div>
 
       {/*Job 3*/}
-      <h3 class="jobHeader">Production Intern</h3>
-      <h4 class="employer">The Daily Show with Trevor Noah</h4>
-      <h4 class="jobDetails">01/2018 - 05/2018 | New York, NY</h4>
-      <div class="dutiesSection">
+      <h3 className="jobHeader">Production Intern</h3>
+      <h4 className="employer">The Daily Show with Trevor Noah</h4>
+      <h4 className="jobDetails">01/2018 - 05/2018 | New York, NY</h4>
+      <div className="dutiesSection">
         <ul>
           <li>Prepared props, sets, and equipment for television shoots.</li>
           <li>
@@ -91,10 +94,10 @@ function Work() {
         </ul>
       </div>
       {/*Job 4*/}
-      <h3 class="jobHeader">Server, Bartender, Host</h3>
-      <h4 class="employer">Arirang Hibachi Steakhouse</h4>
-      <h4 class="jobDetails">04/2016 - 05/2018 | Staten Island, NY</h4>
-      <div class="dutiesSection">
+      <h3 className="jobHeader">Server, Bartender, Host</h3>
+      <h4 className="employer">Arirang Hibachi Steakhouse</h4>
+      <h4 className="jobDetails">04/2016 - 05/2018 | Staten Island, NY</h4>
+      <div className="dutiesSection">
         <ul>
           <li>
             Prioritized hospitality, communication, and customer service in a

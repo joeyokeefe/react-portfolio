@@ -36,3 +36,30 @@ nav {
   text-shadow: none;
   cursor: pointer;
 }
+
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+}
+
+@media all and (max-width: 480px) {
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+    border-bottom: 1px #ffc755 solid;
+  }
+
+  #resumeLink {
+    display: none;
+  }
+}

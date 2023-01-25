@@ -40,6 +40,7 @@ form textarea {
   width: 200px;
   align-self: center;
   font-size: 1.3rem;
+  letter-spacing: 0.125rem;
 }
 
 .sendButton:hover {
@@ -48,4 +49,14 @@ form textarea {
   color: #404258;
   text-shadow: none;
   cursor: pointer;
+}
+
+@media all and (max-width: 480px) {
+  form label {
+    color: white;
+    font-size: 1rem;
+  }
+  form {
+    padding-bottom: 2.5rem;
+  }
 }
