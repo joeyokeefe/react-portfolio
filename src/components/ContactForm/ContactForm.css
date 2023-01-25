@@ -2,6 +2,7 @@ form {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  padding-bottom: 2.5rem;
 }
 
 form label {

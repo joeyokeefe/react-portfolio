@@ -90,6 +90,11 @@
 }
 
 @media all and (min-width: 768px) and (max-width: 1024px) {
+  #projectsContainer {
+    flex-direction: column;
+    padding: 0 0;
+    margin-top: -2rem;
+  }
 }
 
 @media all and (min-width: 480px) and (max-width: 768px) {

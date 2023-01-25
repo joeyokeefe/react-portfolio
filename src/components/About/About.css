@@ -6,17 +6,20 @@
   font-size: 4rem;
   text-shadow: 1px 1px black;
   font-family: "Bebas Neue", sans-serif;
+  margin-left: 4rem;
 }
 
 .aboutBio {
   font-size: 1.5rem;
-  width: 75rem;
+  width: 60rem;
   color: white;
   line-height: 3rem;
 }
 
 .aboutDetails {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .profilePicture {
@@ -36,6 +39,36 @@ span {
 }
 
 @media all and (min-width: 768px) and (max-width: 1024px) {
+  .mainTitle {
+    font-size: 3rem;
+    text-shadow: 1px 1px black;
+    font-family: "Bebas Neue", sans-serif;
+    text-align: center;
+    margin-bottom: -4rem;
+    margin-left: 0;
+  }
+  .aboutSection {
+    width: 100%;
+  }
+
+  .aboutDetails {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .aboutBio {
+    font-size: 1.2rem;
+    width: 75%;
+    line-height: 2rem;
+    margin-top: -4rem;
+    text-align: center;
+  }
+
+  .profilePicture {
+    margin: 0;
+    transform: scale(0.5);
+  }
 }
 
 @media all and (min-width: 480px) and (max-width: 768px) {
@@ -45,6 +78,7 @@ span {
     font-family: "Bebas Neue", sans-serif;
     text-align: center;
     margin-bottom: -4rem;
+    margin-left: 0;
   }
   .aboutSection {
     width: 100%;
@@ -77,6 +111,7 @@ span {
     font-family: "Bebas Neue", sans-serif;
     text-align: center;
     margin-bottom: -4rem;
+    margin-left: 0;
   }
   .aboutSection {
     width: 100%;
@@ -110,6 +145,7 @@ span {
     font-family: "Bebas Neue", sans-serif;
     text-align: center;
     margin-bottom: -4rem;
+    margin-left: 0;
   }
   .aboutSection {
     width: 100%;
@@ -143,6 +179,7 @@ span {
     font-family: "Bebas Neue", sans-serif;
     text-align: center;
     margin-bottom: -4rem;
+    margin-left: 0;
   }
   .aboutSection {
     width: 100%;
