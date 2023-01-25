@@ -4,7 +4,7 @@
 
 .mainTitle {
   font-size: 4rem;
-  text-shadow: 4px 4px black;
+  text-shadow: 1px 1px black;
 }
 
 .aboutBio {
@@ -20,10 +20,11 @@
 
 .profilePicture {
   float: right;
-  border: #ffc755 4px solid;
-  border-radius: 400px;
+  border: #ffc755 0.25rem solid;
+  border-radius: 25rem;
   background-color: whitesmoke;
-  margin-left: 70px;
+  margin-left: 5rem;
+  margin-top: 3.125rem;
 }
 
 span {

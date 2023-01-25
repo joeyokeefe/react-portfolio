@@ -12,7 +12,7 @@ nav {
   text-decoration: none;
   color: white;
   margin-top: 12px;
-  text-shadow: 2px 2px black;
+  text-shadow: 1px 1px black;
 }
 
 .navLink:hover {
@@ -26,7 +26,7 @@ nav {
   border: 2px #ffc755 solid;
   padding: 10px;
   border-radius: 25px;
-  text-shadow: 2px 2px black;
+  text-shadow: 1px 1px black;
 }
 
 #resumeLink:hover {
