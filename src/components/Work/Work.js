@@ -11,18 +11,19 @@ function Work() {
       <div className="dutiesSection">
         <ul>
           <li>
-            Oversees the setup and configuration of new software and hardware.
+            Oversees the installation, setup, and configuration of new software
+            and hardware.
           </li>
           <li>
             Trains and coaches both students and peers in the use of technology
-            and digital resources including basic computer fluency, Google Docs,
-            Google Slides, Zoom, Zearn, Freckle, and more.
+            and digital resources; Including, but not limited to, basic computer
+            fluency, Google Docs, Google Slides, Zoom, Zearn, Freckle.
           </li>
-          <li>Troubleshoots all IT and technology related problems.</li>
+          <li>Provides technological support for both students and faculty.</li>
           <li>Manages Google Admin and student database.</li>
           <li>
             Analyzes and interprets data to ensure student programs are
-            effective in meeting proposed goals
+            effective in meeting proposed goals.
           </li>
           <li>
             Oversees the coordination of disability services and early childhood
@@ -32,10 +33,7 @@ function Work() {
             Analyzes performance data to identify students who may require
             additional services.
           </li>
-          <li>
-            Assists in the design and creation of marketing and promotional
-            materials.
-          </li>
+          <li>Assists in the design of marketing and promotional materials.</li>
           <li>
             Oversees the scheduling and coordination of all in-school disability
             service providers.
@@ -52,8 +50,8 @@ function Work() {
       <div className="dutiesSection">
         <ul>
           <li>
-            Temporary contract position performing a variety of administrative,
-            operational, and marketing duties for a privately owned law firm.
+            Temporary contract position performing administrative, operational,
+            and marketing duties for a privately owned law firm.
           </li>
           <li>
             Conducted market research to identify potential clients and primary
@@ -66,8 +64,7 @@ function Work() {
           </li>
           <li>
             Reported market research findings using digital data visualization
-            tools and Google Workspace apps to ensure that complex data could be
-            interpreted and used for a variety of purposes.
+            tools and Google Workspace apps.
           </li>
         </ul>
       </div>
@@ -87,10 +84,7 @@ function Work() {
             Used programs such as Nesbit and Avid to log and transcribe video
             data.
           </li>
-          <li>
-            Helped maintain a clean, orderly, and efficient office through a
-            variety of clerical duties.
-          </li>
+          <li>Helped maintain a clean, orderly, and efficient office.</li>
         </ul>
       </div>
       {/*Job 4*/}
