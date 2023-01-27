@@ -17,16 +17,23 @@ form input {
 
 form textarea {
   background-color: white;
+  font-size: 1rem;
 }
 
 .nameBox,
 .emailBox,
 .subjectBox {
-  width: 250px;
+  width: 16rem;
+}
+
+.nameBox:focus,
+.emailBox:focus,
+.subjectBox:focus {
+  background-color: #ffe494;
 }
 
 .messageBox {
-  width: 250px;
+  width: 16rem;
   height: 100px;
 }
 
