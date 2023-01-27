@@ -14,15 +14,16 @@ function About() {
             I have been passionate about technology for as long as I can
             remember. My journey in technology began when I was a child, and I
             started learning how to manipulate the files on my computer to
-            install the newest Minecraft mods. Since then my love for technology
-            has grown and expanded far beyond the confines of video games.
+            install the newest Minecraft mods. Since then, my love for
+            technology has grown and expanded far beyond the confines of video
+            games.
           </p>
           <p>
             In my professional career, I have taken on additional
             responsibilities in IT, and I have become the IT Administrator in my
             current workplace. Additionally, I have spent considerable time
-            working towards becoming a web developer, and I have developed an
-            interest in using my proficiency with technology to create new
+            working towards becoming a software engineer, and I have developed
+            an interest in using my proficiency with technology to create new
             things. I have always been a creative person, and it is clear to me
             that software development is the perfect medium for me to combine my
             love of art and technology.
