@@ -5,7 +5,7 @@ import Contact from "./components/Contact/Contact";
 import About from "./components/About/About";
 import Work from "./components/Work/Work";
 import Projects from "./components/Projects/Projects";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 
 function App() {
