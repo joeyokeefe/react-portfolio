@@ -1,12 +1,12 @@
-import cssIcon from "./icons/cssIcon.png";
-import htmlIcon from "./icons/htmlIcon.png";
-import javaScriptIcon from "./icons/javaScriptIcon.png";
-import reactIcon from "./icons/reactIcon.png";
-import nodeIcon from "./icons/nodeIcon.png";
-import bootstrapLogo from "./icons/bootstrapIcon.png";
-import tailwindIcon from "./icons/tailwindIcon.png";
-import githubLogo from "./icons/githubLogo.png";
-import vsCodeIcon from "./icons/vsCodeIcon.png";
+import cssIcon from "./icons/cssIcon.svg";
+import htmlIcon from "./icons/htmlIcon.svg";
+import javaScriptIcon from "./icons/javaScriptIcon.svg";
+import reactIcon from "./icons/reactIcon.svg";
+import nodeIcon from "./icons/nodeIcon.svg";
+import bootstrapLogo from "./icons/bootstrapIcon.svg";
+import tailwindIcon from "./icons/tailwindIcon.svg";
+import githubLogo from "./icons/githubLogo.svg";
+import vsCodeIcon from "./icons/vsCodeIcon.svg";
 import endangermentScreenshot from "./endangermentScreenshot.png";
 import memoryGameScreenshot from "./memoryGameScreenshot.png";
 import "./Projects.css";
@@ -18,29 +18,39 @@ function Projects() {
       <div id="projectsContainer">
         <div className="project">
           <h4 className="projectTitle">Endangerment!</h4>
-          <img className="projectThumbnail" src={endangermentScreenshot} />
+          <img
+            className="projectThumbnail"
+            src={endangermentScreenshot}
+            alt="Screenshot of a jeopardy-like trivia game portfolio project."
+          />
           <p className="projectDescription">
             A trivia game made with jService API. Generates a random board of
             Jeopardy questions to play with your friends.
           </p>
           <a
-            class="projectLink"
+            className="projectLink"
             href="https://endangerment.netlify.app"
             target="_blank"
+            rel="noreferrer"
           >
             Link
           </a>
         </div>
         <div className="project">
           <h4 className="projectTitle">Memory Game</h4>
-          <img className="projectThumbnail" src={memoryGameScreenshot} />
+          <img
+            className="projectThumbnail"
+            src={memoryGameScreenshot}
+            alt="Screenshot of a memory game project."
+          />
           <p className="projectDescription">
             A memory game built in vanilla JavaScript.
           </p>
           <a
-            class="projectLink"
+            className="projectLink"
             href="https://portfoliomemorygame.netlify.app/"
             target="_blank"
+            rel="noreferrer"
           >
             Link
           </a>

@@ -29,7 +29,12 @@ function About() {
             love of art and technology.
           </p>
         </section>
-        <img src={profilePicture} height="300px" className="profilePicture" />
+        <img
+          src={profilePicture}
+          height="300px"
+          className="profilePicture"
+          alt="Profile picture"
+        />
       </div>
     </section>
   );

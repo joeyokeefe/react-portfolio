@@ -18,6 +18,10 @@
   margin-bottom: 5rem;
 }
 
+.contactLinks img {
+  height: 5rem;
+}
+
 .contactLinks img:hover {
   transform: scale(1.2);
   transition: ease all 250ms;

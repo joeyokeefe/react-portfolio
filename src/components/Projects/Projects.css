@@ -34,6 +34,7 @@
 .projectThumbnail {
   width: 31.25rem;
   height: 15.625rem;
+  border-radius: 1.25rem;
 }
 
 .projectDescription {
@@ -84,6 +85,11 @@
 .softwareIcon {
   height: 48px;
   width: 48px;
+}
+
+.softwareIcon:hover {
+  transform: scale(1.2);
+  transition: ease all 100ms;
 }
 
 @media all and (min-width: 1024px) and (max-width: 1280px) {
