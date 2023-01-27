@@ -12,31 +12,15 @@
   font-family: "Bebas Neue", sans-serif;
 }
 
-.contactBlurb {
-  color: white;
-  font-size: 1.5rem;
-  margin-bottom: 50px;
-}
-
 .contactLinks {
   display: flex;
   gap: 4rem;
-}
-
-@media all and (min-width: 1024px) and (max-width: 1280px) {
-}
-
-@media all and (min-width: 768px) and (max-width: 1024px) {
+  margin-bottom: 5rem;
 }
 
 @media all and (min-width: 480px) and (max-width: 768px) {
   .contactHeader {
     font-size: 3rem;
-  }
-
-  .contactBlurb {
-    width: 80vh;
-    text-align: center;
   }
 
   .contactLinks {
@@ -50,29 +34,8 @@
     font-size: 3rem;
   }
 
-  .contactBlurb {
-    width: 45vh;
-    text-align: center;
-  }
-
   .contactLinks {
     gap: 1rem;
     margin-bottom: 2rem;
-  }
-}
-
-/* iPhone Portrait */
-@media screen and (max-device-width: 480px) and (orientation: portrait) {
-}
-
-/* iPhone Landscape */
-@media screen and (max-device-width: 480px) and (orientation: landscape) {
-}
-
-/* iPad Portrait */
-@media screen and (min-device-width: 481px) and (orientation: portrait) {
-  .contactBlurb {
-    width: 30rem;
-    text-align: center;
   }
 }

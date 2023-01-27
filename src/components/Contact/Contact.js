@@ -8,9 +8,6 @@ function Contact() {
   return (
     <section className="contactSection">
       <h2 className="contactHeader">Reach out!</h2>
-      <p className="contactBlurb">
-        I am open to Front-end Development and Software Engineer positions
-      </p>
       <div className="contactLinks">
         <a href="https://www.linkedin.com/in/josephsokeefe/" target="_blank">
           <img src={linkedinLogo} alt="LinkedIn Logo" />
