@@ -30,14 +30,14 @@ function ContactForm() {
   return (
     <form ref={form} onSubmit={sendEmail}>
       <label>Name</label>
-      <input type="text" name="name" className="nameBox"/>
+      <input type="text" name="name" className="nameBox" required />
       <label>Email</label>
-      <input type="email" name="email" className="emailBox"/>
+      <input type="email" name="email" className="emailBox" required />
       <label>Subject</label>
-      <input type="text" name="subject" className="subjectBox"/>
+      <input type="text" name="subject" className="subjectBox" required />
       <label>Message</label>
-      <textarea name="message" className="messageBox"/>
-      <input type="submit" value="Send" className="sendButton"/>
+      <textarea name="message" className="messageBox" required />
+      <input type="submit" value="Send" className="sendButton" />
     </form>
   );
 }

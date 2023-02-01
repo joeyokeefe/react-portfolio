@@ -18,17 +18,20 @@ form input {
 form textarea {
   background-color: white;
   font-size: 1rem;
+  border-radius: 1.25rem;
 }
 
 .nameBox,
 .emailBox,
 .subjectBox {
   width: 16rem;
+  border-radius: 1.25rem;
 }
 
 .nameBox:focus,
 .emailBox:focus,
-.subjectBox:focus {
+.subjectBox:focus,
+textarea:focus {
   background-color: #ffe494;
 }
 
