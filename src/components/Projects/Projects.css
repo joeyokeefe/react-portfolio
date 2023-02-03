@@ -113,24 +113,15 @@
   #projectsHeader {
     font-size: 3rem;
   }
-  .project {
-    width: 50vh;
-  }
+
   .projectTitle {
     text-align: center;
-    margin-bottom: -3rem;
     font-size: 2rem;
-    padding-bottom: -6rem;
   }
   #projectsContainer {
     flex-direction: column;
     padding: 0 0;
     margin-top: -2rem;
-  }
-
-  .projectThumbnail {
-    transform: scale(0.5);
-    margin-bottom: -4rem;
   }
   .projectDescription {
     font-size: 1rem;
@@ -155,13 +146,9 @@
   #projectsHeader {
     font-size: 3rem;
   }
-  .project {
-    width: 50vh;
-  }
   .projectTitle {
     text-align: center;
     font-size: 2rem;
-    padding-bottom: -1rem;
   }
   #projectsContainer {
     flex-direction: column;

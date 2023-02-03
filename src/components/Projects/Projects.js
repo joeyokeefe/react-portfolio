@@ -9,7 +9,7 @@ import githubLogo from "./icons/githubLogo.svg";
 import vsCodeIcon from "./icons/vsCodeIcon.svg";
 import endangermentScreenshot from "./endangermentScreenshot.png";
 import memoryGameScreenshot from "./memoryGameScreenshot.png";
-import armBrainScreenshot from "./armBrainScreenshot.png";
+import armBrainScreenshot from "./armBrainScreenshot.jpg";
 import "./Projects.css";
 
 function Projects() {
