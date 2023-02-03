@@ -29,8 +29,10 @@ function ContactForm() {
 
   return (
     <form ref={form} onSubmit={sendEmail}>
-      <label>Name</label>
-      <input type="text" name="name" className="nameBox" required />
+      <label>First Name</label>
+      <input type="text" name="first-name" className="nameBox" required />
+      <label>Last Name</label>
+      <input type="text" name="last-name" className="nameBox" required />
       <label>Email</label>
       <input type="email" name="email" className="emailBox" required />
       <label>Subject</label>
