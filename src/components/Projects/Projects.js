@@ -9,6 +9,7 @@ import githubLogo from "./icons/githubLogo.svg";
 import vsCodeIcon from "./icons/vsCodeIcon.svg";
 import endangermentScreenshot from "./endangermentScreenshot.png";
 import memoryGameScreenshot from "./memoryGameScreenshot.png";
+import rLiteScreenshot from "./rLiteScreenshot.png";
 import "./Projects.css";
 
 function Projects() {
@@ -30,6 +31,25 @@ function Projects() {
           <a
             className="projectLink"
             href="https://endangerment.netlify.app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Link
+          </a>
+        </div>
+        <div className="project">
+          <h4 className="projectTitle">RLite</h4>
+          <img
+            className="projectThumbnail"
+            src={rLiteScreenshot}
+            alt="Screenshot of r-lite portfolio project."
+          />
+          <p className="projectDescription">
+            A simplified client for reddit made with React, Tailwind, and Vite.
+          </p>
+          <a
+            className="projectLink"
+            href="https://r-lite.netlify.app"
             target="_blank"
             rel="noreferrer"
           >
