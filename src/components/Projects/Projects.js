@@ -9,6 +9,7 @@ import githubLogo from "./icons/githubLogo.svg";
 import vsCodeIcon from "./icons/vsCodeIcon.svg";
 import endangermentScreenshot from "./endangermentScreenshot.png";
 import memoryGameScreenshot from "./memoryGameScreenshot.png";
+import armBrainScreenshot from "./armBrainScreenshot.jpg";
 import rLiteScreenshot from "./rLiteScreenshot.png";
 import "./Projects.css";
 
@@ -31,6 +32,26 @@ function Projects() {
           <a
             className="projectLink"
             href="https://endangerment.netlify.app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Link
+          </a>
+        </div>
+        <div className="project">
+          <h4 className="projectTitle">ArmBrain Tutoring</h4>
+          <img
+            className="projectThumbnail"
+            src={armBrainScreenshot}
+            alt="Screenshot of a portfolio website titled ArmBrain Tutoring"
+          />
+          <p className="projectDescription">
+            A template business site made with Bootstrap using a mobile-first
+            approach.
+          </p>
+          <a
+            className="projectLink"
+            href="https://armbraintutoring.netlify.app"
             target="_blank"
             rel="noreferrer"
           >
