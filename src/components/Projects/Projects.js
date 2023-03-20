@@ -7,6 +7,7 @@ import bootstrapLogo from "./icons/bootstrapIcon.svg";
 import tailwindIcon from "./icons/tailwindIcon.svg";
 import githubLogo from "./icons/githubLogo.svg";
 import vsCodeIcon from "./icons/vsCodeIcon.svg";
+import vitejs from "./icons/vitejs.svg"
 import endangermentScreenshot from "./endangermentScreenshot.png";
 import memoryGameScreenshot from "./memoryGameScreenshot.png";
 import armBrainScreenshot from "./armBrainScreenshot.jpg";
@@ -60,6 +61,7 @@ function Projects() {
         <div className="project">
           <h4 className="projectTitle">ArmBrain Tutoring</h4>
           <img
+            id="armBrainThumbnail"
             className="projectThumbnail"
             src={armBrainScreenshot}
             alt="Screenshot of a portfolio website titled ArmBrain Tutoring"
@@ -103,11 +105,12 @@ function Projects() {
         <img src={cssIcon} alt="css" className="softwareIcon" />
         <img src={javaScriptIcon} alt="javaScript" className="softwareIcon" />
         <img src={reactIcon} alt="reactJS" className="softwareIcon" />
+        <img src={vitejs} alt="vitejs" className="softwareIcon" />
         <img src={nodeIcon} alt="nodeJS" className="softwareIcon" />
         <img src={bootstrapLogo} alt="bootstrap" className="softwareIcon" />
         <img src={tailwindIcon} alt="tailwind" className="softwareIcon" />
         <img src={githubLogo} alt="github" className="softwareIcon" />
-        <img src={vsCodeIcon} alt="vscode" className="softwareIcon" />
+        <img src={vsCodeIcon} alt="vscode" className="softwareIcon" />  
       </div>
     </div>
   );

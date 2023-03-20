@@ -85,6 +85,10 @@
   margin-bottom: 4rem;
 }
 
+#armBrainThumbnail {
+  max-width: 20rem;
+}
+
 .softwareIcon {
   height: 48px;
   width: 48px;
